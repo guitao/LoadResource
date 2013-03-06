@@ -6,7 +6,7 @@ package
 	{
 		public function Config()
 		{
-
+//test
 		}
 
 		public function getPaths():Array
