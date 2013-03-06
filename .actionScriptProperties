@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="LoadResource.as" projectUUID="b64e538b-ebbc-43d4-92bf-58531668da7d" version="11">
+<actionScriptProperties analytics="false" mainApplicationPath="LoadResource.as" projectUUID="1071130d-324e-408b-9f03-bc27f1ccbe8e" version="11">
   <compiler additionalCompilerArguments="-locale en_US" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
     <compilerSourcePath/>
     <libraryPath defaultLinkType="0">
@@ -30,9 +30,9 @@
           <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
         </excludedEntries>
       </libraryPathEntry>
-      <libraryPathEntry kind="1" linkType="1" path="view"/>
-      <libraryPathEntry kind="3" linkType="1" path="/bulkloader/bin/bulkloader.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/FlashConsole/bin/FlashConsole.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="/bulkloader/bin/bulkloader.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="1" linkType="1" path="view"/>
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
@@ -47,13 +47,9 @@
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
   <buildTargets>
     <buildTarget buildTargetName="default" platformId="default">
-      <airSettings airCertificatePath="E:/安装文件/flash安装文件/feng.p12" airTimestamp="true" anePathSet="true" version="1">
+      <airSettings airCertificatePath="" airTimestamp="true" anePathSet="true" version="1">
         <airExcludes/>
         <anePaths/>
-        <newLaunchParams/>
-        <modifiedLaunchParams/>
-        <newPackagingParams/>
-        <modifiedPackagingParams/>
       </airSettings>
       <actionScriptSettings version="1"/>
     </buildTarget>
