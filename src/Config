@@ -1,0 +1,38 @@
+package
+{
+	import flash.display.Sprite;
+
+	public class Config extends Sprite
+	{
+		public function Config()
+		{
+
+		}
+
+		public function getPaths():Array
+		{
+			
+			var arr = [];
+			for(var i= 1;i<=16;i++)
+			{
+				for(var j = 1;j<=9;j++)
+				{
+					arr.push("http://asqxres.my4399.com/newzt637/map/vxsca/vxsca_r"+i+"_c"+j+".jpg");
+				}
+			}
+		
+			return ["http://www.emptywhite.com/bulkloader-assets/cats.jpg",//
+				"http://www.emptywhite.com/bulkloader-assets/shoes.jpg",//
+				"http://www.emptywhite.com/bulkloader-assets/samplexml.xml",//
+				"http://www.emptywhite.com/bulkloader-assets/movie.flv",//
+				"http://www.emptywhite.com/bulkloader-assets/chopin.mp3",//
+			];
+		}
+
+		public function getRoot():String
+		{
+			return "d:/";
+		}
+		
+	}
+}
